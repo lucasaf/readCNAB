@@ -41,7 +41,11 @@ Opções:
   -s, --segmento  tipo de segmento                        [string] [obrigatório]
 
 Exemplos:
-  cnabRows.js -f 21 -t 34 -s p  lista a linha e campo que from e to do cnab
+   cnabRows.js -f 21 -t 34 -s p  lista a linha e campo que from e to do cnab
+   cnabRows.js -f 21 -t 34 -s p  Lista a linha e campo que from e to do cnab
+   cnabRows.js -f 21 -t 34 -s p -c ./caminho/do/seu/arquivo.cnab Lista a linha e campo que from e to do cnab a partir de um arquivo específico fornecido.
+   cnabRows.js -n empresa Lista as empresas encontradas pelo nome fornecido.
+   cnabRows.js -n empresa -c ./caminho/do/seu/arquivo.cnab Lista as empresas encontradas pelo nome a partir de um arquivo específico fornecido.
 ```
 
 hoje a ferramenta busca uma posição e loga isso no terminal.
