@@ -47,5 +47,5 @@ Exemplos:
    cnabRows.js -n empresa Lista as empresas encontradas pelo nome fornecido.
    cnabRows.js -n empresa -c ./caminho/do/seu/arquivo.cnab Lista as empresas encontradas pelo nome a partir de um arquivo específico fornecido.
 ```
-Ao optar por utilizar a opção '-n' caso o nome da empresa seja encontrado. O JSON será gerado na pasta './extratedDatas' na raiz do projeto
+Ao optar por utilizar a opção '-n', caso o nome da empresa seja encontrado. O JSON será gerado na pasta './extratedDatas' na raiz do projeto
 
